@@ -1,0 +1,62 @@
+# ==============================
+# Python Virtual Environment
+# ==============================
+.venv/
+venv/
+ENV/
+
+# ==============================
+# Python Cache / Bytecode
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# ==============================
+# Hugging Face / Model Cache
+# ==============================
+.cache/
+huggingface/
+huggingface_cache/
+transformers_cache/
+*.safetensors
+*.bin
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Scratch / Temporary Files
+# ==============================
+scratch/
+*.log
+*.tmp
+
+# ==============================
+# Temporary Debug Files
+# ==============================
+test_backend_long.py
+
+# ==============================
+# IDE / OS Files
+# ==============================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

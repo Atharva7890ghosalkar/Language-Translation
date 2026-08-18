@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "model": "facebook/nllb-200-distilled-600M",
+    "device": "cuda",
+    "evaluation_timestamp": "2026-08-15 20:24:00",
+    "total_samples": 24,
+    "total_pairs": 6,
+    "elapsed_seconds": 11.25
+  },
+  "summary": {
+    "overall_corpus_bleu": 78.84,
+    "overall_corpus_chrf": 76.26,
+    "mean_language_pair_bleu": 53.18,
+    "mean_language_pair_chrf": 71.7
+  },
+  "per_language_pair": {
+    "French -> Japanese": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 36.67,
+      "pair_corpus_chrf": 34.81
+    },
+    "Japanese -> English": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 47.32,
+      "pair_corpus_chrf": 64.75
+    },
+    "Hindi -> German": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 71.3,
+      "pair_corpus_chrf": 89.86
+    },
+    "German -> Spanish": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 47.34,
+      "pair_corpus_chrf": 71.51
+    },
+    "Spanish -> French": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 47.04,
+      "pair_corpus_chrf": 84.68
+    },
+    "English -> Hindi": {
+      "sample_count": 4,
+      "pair_corpus_bleu": 69.41,
+      "pair_corpus_chrf": 84.62
+    }
+  },
+  "detailed_samples": [
+    {
+      "id": 1,
+      "source_language": "French",
+      "target_language": "Japanese",
+      "source_text": "Bonjour tout le monde.",
+      "reference_translation": "皆さん、こんにちは。",
+      "candidate_translation": "皆さん こんにちは",
+      "sentence_bleu": 53.85,
+      "sentence_chrf": 42.33
+    },
+    {
+      "id": 2,
+      "source_language": "French",
+      "target_language": "Japanese",
+      "source_text": "Quel temps fait-il aujourd'hui ?",
+      "reference_translation": "今日の天気はどうですか？",
+      "candidate_translation": "今日はどんな天気ですか?",
+      "sentence_bleu": 20.86,
+      "sentence_chrf": 21.74
+    },
+    {
+      "id": 3,
+      "source_language": "French",
+      "target_language": "Japanese",
+      "source_text": "J'apprends le japonais et l'informatique à l'université.",
+      "reference_translation": "私は大学で日本語とコンピューターサイエンスを学んでいます。",
+      "candidate_translation": "私は大学で日本語とコンピュータを勉強しています.",
+      "sentence_bleu": 54.32,
+      "sentence_chrf": 53.05
+    },
+    {
+      "id": 4,
+      "source_language": "French",
+      "target_language": "Japanese",
+      "source_text": "Merci beaucoup pour votre aide précieuse.",
+      "reference_translation": "貴重なご協力、本当にありがとうございます。",
+      "candidate_translation": "貴重な支援に感謝します",
+      "sentence_bleu": 7.4,
+      "sentence_chrf": 9.02
+    },
+    {
+      "id": 5,
+      "source_language": "Japanese",
+      "target_language": "English",
+      "source_text": "こんにちは、お元気ですか？",
+      "reference_translation": "Hello, how are you?",
+      "candidate_translation": "Hello, are you okay?",
+      "sentence_bleu": 24.27,
+      "sentence_chrf": 50.77
+    },
+    {
+      "id": 6,
+      "source_language": "Japanese",
+      "target_language": "English",
+      "source_text": "この本はとても面白くて勉強になります。",
+      "reference_translation": "This book is very interesting and informative.",
+      "candidate_translation": "This book is so fun and I'm going to study it.",
+      "sentence_bleu": 14.32,
+      "sentence_chrf": 31.0
+    },
+    {
+      "id": 7,
+      "source_language": "Japanese",
+      "target_language": "English",
+      "source_text": "明日の朝、駅で会いましょう。",
+      "reference_translation": "Let's meet at the station tomorrow morning.",
+      "candidate_translation": "I'll see you at the station tomorrow morning.",
+      "sentence_bleu": 58.74,
+      "sentence_chrf": 75.68
+    },
+    {
+      "id": 8,
+      "source_language": "Japanese",
+      "target_language": "English",
+      "source_text": "東京は日本の活気ある首都です。",
+      "reference_translation": "Tokyo is the vibrant capital of Japan.",
+      "candidate_translation": "Tokyo is the vibrant capital of Japan.",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 9,
+      "source_language": "Hindi",
+      "target_language": "German",
+      "source_text": "नमस्ते, आप कैसे हैं?",
+      "reference_translation": "Hallo, wie geht es Ihnen?",
+      "candidate_translation": "Hallo, wie geht's Ihnen?",
+      "sentence_bleu": 32.16,
+      "sentence_chrf": 80.05
+    },
+    {
+      "id": 10,
+      "source_language": "Hindi",
+      "target_language": "German",
+      "source_text": "भारत एक सुंदर और विविध देश है।",
+      "reference_translation": "Indien ist ein schönes und vielfältiges Land.",
+      "candidate_translation": "Indien ist ein schönes und vielfältiges Land.",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 11,
+      "source_language": "Hindi",
+      "target_language": "German",
+      "source_text": "मैं कृत्रिम बुद्धिमत्ता और मशीन लर्निंग सीख रहा हूँ।",
+      "reference_translation": "Ich lerne künstliche Intelligenz und maschinelles Lernen.",
+      "candidate_translation": "Ich lerne künstliche Intelligenz und maschinelles Lernen.",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 12,
+      "source_language": "Hindi",
+      "target_language": "German",
+      "source_text": "कल हम एक नई परियोजना पर काम शुरू करेंगे।",
+      "reference_translation": "Morgen beginnen wir mit der Arbeit an einem neuen Projekt.",
+      "candidate_translation": "Morgen beginnen wir mit einem neuen Projekt.",
+      "sentence_bleu": 47.52,
+      "sentence_chrf": 74.31
+    },
+    {
+      "id": 13,
+      "source_language": "German",
+      "target_language": "Spanish",
+      "source_text": "Guten Tag, wie geht es Ihnen?",
+      "reference_translation": "Buenos días, ¿cómo está usted?",
+      "candidate_translation": "Hola, ¿cómo estás?",
+      "sentence_bleu": 15.85,
+      "sentence_chrf": 37.26
+    },
+    {
+      "id": 14,
+      "source_language": "German",
+      "target_language": "Spanish",
+      "source_text": "Das Wetter ist heute sehr schön und sonnig.",
+      "reference_translation": "El clima hoy es muy agradable y soleado.",
+      "candidate_translation": "El tiempo es muy bonito y soleado hoy.",
+      "sentence_bleu": 15.51,
+      "sentence_chrf": 33.26
+    },
+    {
+      "id": 15,
+      "source_language": "German",
+      "target_language": "Spanish",
+      "source_text": "Wir entwickeln eine neue Software für maschinelle Übersetzung.",
+      "reference_translation": "Estamos desarrollando un nuevo software de traducción automática.",
+      "candidate_translation": "Estamos desarrollando un nuevo software para traducción automática.",
+      "sentence_bleu": 59.69,
+      "sentence_chrf": 91.13
+    },
+    {
+      "id": 16,
+      "source_language": "German",
+      "target_language": "Spanish",
+      "source_text": "Vielen Dank für Ihre freundliche Unterstützung.",
+      "reference_translation": "Muchas gracias por su amable apoyo.",
+      "candidate_translation": "Muchas gracias por su amable apoyo.",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 17,
+      "source_language": "Spanish",
+      "target_language": "French",
+      "source_text": "¿Cómo estás hoy?",
+      "reference_translation": "Comment vas-tu aujourd'hui ?",
+      "candidate_translation": "Comment vous sentez-vous aujourd'hui ?",
+      "sentence_bleu": 23.64,
+      "sentence_chrf": 63.53
+    },
+    {
+      "id": 18,
+      "source_language": "Spanish",
+      "target_language": "French",
+      "source_text": "La inteligencia artificial está transformando muchas industrias.",
+      "reference_translation": "L'intelligence artificielle transforme de nombreuses industries.",
+      "candidate_translation": "L'intelligence artificielle est en train de transformer de nombreuses industries.",
+      "sentence_bleu": 27.9,
+      "sentence_chrf": 88.39
+    },
+    {
+      "id": 19,
+      "source_language": "Spanish",
+      "target_language": "French",
+      "source_text": "Nos vemos mañana en la biblioteca.",
+      "reference_translation": "On se voit demain à la bibliothèque.",
+      "candidate_translation": "Je te vois demain à la bibliothèque.",
+      "sentence_bleu": 51.7,
+      "sentence_chrf": 77.66
+    },
+    {
+      "id": 20,
+      "source_language": "Spanish",
+      "target_language": "French",
+      "source_text": "Muchas gracias por su hospitalidad.",
+      "reference_translation": "Merci beaucoup pour votre hospitalité.",
+      "candidate_translation": "Merci beaucoup pour votre hospitalité.",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 21,
+      "source_language": "English",
+      "target_language": "Hindi",
+      "source_text": "Welcome to the multilingual translation system.",
+      "reference_translation": "बहुभाषी अनुवाद प्रणाली में आपका स्वागत है।",
+      "candidate_translation": "बहुभाषी अनुवाद प्रणाली में आपका स्वागत है।",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 22,
+      "source_language": "English",
+      "target_language": "Hindi",
+      "source_text": "Natural language processing enables computers to understand human languages.",
+      "reference_translation": "प्राकृतिक भाषा प्रसंस्करण कंप्यूटर को मानव भाषाएं समझने में सक्षम बनाता है।",
+      "candidate_translation": "प्राकृतिक भाषा प्रसंस्करण कंप्यूटर को मानव भाषाओं को समझने में सक्षम बनाता है।",
+      "sentence_bleu": 67.03,
+      "sentence_chrf": 92.26
+    },
+    {
+      "id": 23,
+      "source_language": "English",
+      "target_language": "Hindi",
+      "source_text": "Where is the nearest railway station?",
+      "reference_translation": "निकटतम रेलवे स्टेशन कहाँ है?",
+      "candidate_translation": "निकटतम रेलवे स्टेशन कहाँ है?",
+      "sentence_bleu": 100.0,
+      "sentence_chrf": 100.0
+    },
+    {
+      "id": 24,
+      "source_language": "English",
+      "target_language": "Hindi",
+      "source_text": "Have a wonderful and productive day.",
+      "reference_translation": "आपका दिन शुभ और फलदायी हो।",
+      "candidate_translation": "एक अद्भुत और उत्पादक दिन है।",
+      "sentence_bleu": 9.65,
+      "sentence_chrf": 14.25
+    }
+  ]
+}

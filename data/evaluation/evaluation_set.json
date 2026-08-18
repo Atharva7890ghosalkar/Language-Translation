@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "source_language": "French",
+    "target_language": "Japanese",
+    "source_text": "Bonjour tout le monde.",
+    "reference_translation": "皆さん、こんにちは。"
+  },
+  {
+    "id": 2,
+    "source_language": "French",
+    "target_language": "Japanese",
+    "source_text": "Quel temps fait-il aujourd'hui ?",
+    "reference_translation": "今日の天気はどうですか？"
+  },
+  {
+    "id": 3,
+    "source_language": "French",
+    "target_language": "Japanese",
+    "source_text": "J'apprends le japonais et l'informatique à l'université.",
+    "reference_translation": "私は大学で日本語とコンピューターサイエンスを学んでいます。"
+  },
+  {
+    "id": 4,
+    "source_language": "French",
+    "target_language": "Japanese",
+    "source_text": "Merci beaucoup pour votre aide précieuse.",
+    "reference_translation": "貴重なご協力、本当にありがとうございます。"
+  },
+  {
+    "id": 5,
+    "source_language": "Japanese",
+    "target_language": "English",
+    "source_text": "こんにちは、お元気ですか？",
+    "reference_translation": "Hello, how are you?"
+  },
+  {
+    "id": 6,
+    "source_language": "Japanese",
+    "target_language": "English",
+    "source_text": "この本はとても面白くて勉強になります。",
+    "reference_translation": "This book is very interesting and informative."
+  },
+  {
+    "id": 7,
+    "source_language": "Japanese",
+    "target_language": "English",
+    "source_text": "明日の朝、駅で会いましょう。",
+    "reference_translation": "Let's meet at the station tomorrow morning."
+  },
+  {
+    "id": 8,
+    "source_language": "Japanese",
+    "target_language": "English",
+    "source_text": "東京は日本の活気ある首都です。",
+    "reference_translation": "Tokyo is the vibrant capital of Japan."
+  },
+  {
+    "id": 9,
+    "source_language": "Hindi",
+    "target_language": "German",
+    "source_text": "नमस्ते, आप कैसे हैं?",
+    "reference_translation": "Hallo, wie geht es Ihnen?"
+  },
+  {
+    "id": 10,
+    "source_language": "Hindi",
+    "target_language": "German",
+    "source_text": "भारत एक सुंदर और विविध देश है।",
+    "reference_translation": "Indien ist ein schönes und vielfältiges Land."
+  },
+  {
+    "id": 11,
+    "source_language": "Hindi",
+    "target_language": "German",
+    "source_text": "मैं कृत्रिम बुद्धिमत्ता और मशीन लर्निंग सीख रहा हूँ।",
+    "reference_translation": "Ich lerne künstliche Intelligenz und maschinelles Lernen."
+  },
+  {
+    "id": 12,
+    "source_language": "Hindi",
+    "target_language": "German",
+    "source_text": "कल हम एक नई परियोजना पर काम शुरू करेंगे।",
+    "reference_translation": "Morgen beginnen wir mit der Arbeit an einem neuen Projekt."
+  },
+  {
+    "id": 13,
+    "source_language": "German",
+    "target_language": "Spanish",
+    "source_text": "Guten Tag, wie geht es Ihnen?",
+    "reference_translation": "Buenos días, ¿cómo está usted?"
+  },
+  {
+    "id": 14,
+    "source_language": "German",
+    "target_language": "Spanish",
+    "source_text": "Das Wetter ist heute sehr schön und sonnig.",
+    "reference_translation": "El clima hoy es muy agradable y soleado."
+  },
+  {
+    "id": 15,
+    "source_language": "German",
+    "target_language": "Spanish",
+    "source_text": "Wir entwickeln eine neue Software für maschinelle Übersetzung.",
+    "reference_translation": "Estamos desarrollando un nuevo software de traducción automática."
+  },
+  {
+    "id": 16,
+    "source_language": "German",
+    "target_language": "Spanish",
+    "source_text": "Vielen Dank für Ihre freundliche Unterstützung.",
+    "reference_translation": "Muchas gracias por su amable apoyo."
+  },
+  {
+    "id": 17,
+    "source_language": "Spanish",
+    "target_language": "French",
+    "source_text": "¿Cómo estás hoy?",
+    "reference_translation": "Comment vas-tu aujourd'hui ?"
+  },
+  {
+    "id": 18,
+    "source_language": "Spanish",
+    "target_language": "French",
+    "source_text": "La inteligencia artificial está transformando muchas industrias.",
+    "reference_translation": "L'intelligence artificielle transforme de nombreuses industries."
+  },
+  {
+    "id": 19,
+    "source_language": "Spanish",
+    "target_language": "French",
+    "source_text": "Nos vemos mañana en la biblioteca.",
+    "reference_translation": "On se voit demain à la bibliothèque."
+  },
+  {
+    "id": 20,
+    "source_language": "Spanish",
+    "target_language": "French",
+    "source_text": "Muchas gracias por su hospitalidad.",
+    "reference_translation": "Merci beaucoup pour votre hospitalité."
+  },
+  {
+    "id": 21,
+    "source_language": "English",
+    "target_language": "Hindi",
+    "source_text": "Welcome to the multilingual translation system.",
+    "reference_translation": "बहुभाषी अनुवाद प्रणाली में आपका स्वागत है।"
+  },
+  {
+    "id": 22,
+    "source_language": "English",
+    "target_language": "Hindi",
+    "source_text": "Natural language processing enables computers to understand human languages.",
+    "reference_translation": "प्राकृतिक भाषा प्रसंस्करण कंप्यूटर को मानव भाषाएं समझने में सक्षम बनाता है।"
+  },
+  {
+    "id": 23,
+    "source_language": "English",
+    "target_language": "Hindi",
+    "source_text": "Where is the nearest railway station?",
+    "reference_translation": "निकटतम रेलवे स्टेशन कहाँ है?"
+  },
+  {
+    "id": 24,
+    "source_language": "English",
+    "target_language": "Hindi",
+    "source_text": "Have a wonderful and productive day.",
+    "reference_translation": "आपका दिन शुभ और फलदायी हो।"
+  }
+]
